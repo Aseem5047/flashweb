@@ -32,9 +32,12 @@ const ShareLink = () => {
 						height={1000}
 						className="lg:hidden rounded-xl w-full h-full object-contain"
 					/>
-					<Link href="https://forms.gle/bo42SCVG6T4YjJzg8">
+					<Link
+						href="https://forms.gle/bo42SCVG6T4YjJzg8"
+						className="w-full lg:w-[320px]"
+					>
 						<Button
-							className="flex items-center justify-center w-full lg:w-[320px] gap-4 uppercase bg-transparent text-[#502274] hover:bg-transparent hoverScaleDownEffect border border-black !py-6"
+							className="flex items-center justify-center w-full gap-4 uppercase bg-transparent text-[#502274] hover:bg-transparent hoverScaleDownEffect border border-black !py-6"
 							style={{
 								boxShadow: theme,
 							}}

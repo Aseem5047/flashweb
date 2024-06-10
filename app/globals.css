@@ -37,6 +37,16 @@
 	border-radius: 9999px;
 }
 
+@media only screen and (max-width: 768px) {
+	.cl-internal-qk5yrq {
+		max-width: 100% !important;
+	}
+
+	::-webkit-scrollbar {
+		-webkit-appearance: none;
+	}
+}
+
 .blurEffect {
 	/* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
 	backdrop-filter: blur(4px);
