@@ -16,9 +16,9 @@ const Navbar = () => {
 					<Image
 						src="/icons/logoDesktop.png"
 						alt="logo"
-						width={1000}
-						height={1000}
-						className="rounded-xl w-auto h-auto border border-black  hoverScaleEffect"
+						width={100}
+						height={100}
+						className="rounded-xl w-full h-10 border border-black  hoverScaleEffect"
 						style={{
 							boxShadow: theme,
 						}}
