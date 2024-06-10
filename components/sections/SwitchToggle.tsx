@@ -59,7 +59,7 @@ const SwitchToggle = () => {
 				<span className="absolute -top-7 right-0 md:-top-4 md:right-[3.5%] 2xl:right-[5%]">
 					{sparkles}
 				</span>
-				<span className="absolute -bottom-7 left-7 xl:-bottom-4 md:left-[10%] 2xl:left-[17.5%]">
+				<span className="absolute -bottom-10 left-7 xl:-bottom-4 md:left-[10%] 2xl:left-[17.5%]">
 					{sparkles}
 				</span>
 			</div>
