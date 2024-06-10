@@ -1,0 +1,115 @@
+"use client";
+
+import React, { useState, useEffect, useCallback } from "react";
+import { Switch } from "@/components/ui/switch";
+import { useInView } from "react-intersection-observer";
+import Image from "next/image";
+import { sparkles } from "@/constants/icons";
+
+const SwitchToggle = () => {
+	const [showContent, setShowContent] = useState(false);
+	const [toggleSwitch, setToggleSwitch] = useState(false);
+	const { ref, inView } = useInView({
+		threshold: 0.1,
+		triggerOnce: true,
+	});
+
+	useEffect(() => {
+		let timer: any;
+		if (inView) {
+			timer = setTimeout(() => {
+				setToggleSwitch(true);
+			}, 1000); // Delay before toggling the switch on
+		}
+		return () => clearTimeout(timer);
+	}, [inView]);
+
+	useEffect(() => {
+		let timer: any;
+		if (toggleSwitch) {
+			timer = setTimeout(() => {
+				setShowContent(true);
+			}, 1000); // Additional delay before showing content
+		}
+		return () => clearTimeout(timer);
+	}, [toggleSwitch]);
+
+	const handleToggle = useCallback(() => {
+		setToggleSwitch((prev) => !prev);
+		if (!toggleSwitch) {
+			setTimeout(() => {
+				setShowContent((prev) => !prev);
+			}, 1000);
+		} else {
+			setShowContent((prev) => !prev);
+		}
+	}, [toggleSwitch]);
+
+	return (
+		<section
+			ref={ref}
+			className={`flex flex-col gap-14 items-center justify-center py-20 max-md:px-4 ${
+				showContent ? "bg-primary text-white" : "bg-[#232323] text-white"
+			} transition-all duration-500 animate-accordion-down`}
+		>
+			<div className="relative w-full lg:max-w-[75%] md:px-14 lg:px-24 grid grid-cols-1 items-center text-center">
+				<h2 className="relative text-4xl md:text-5xl font-semibold leading-relaxed">
+					Receive calls only when you are online, no more late night disturbance
+				</h2>
+				<span className="absolute -top-7 right-0 md:-top-4 md:right-[3.5%] 2xl:right-[5%]">
+					{sparkles}
+				</span>
+				<span className="absolute -bottom-7 left-7 xl:-bottom-4 md:left-[10%] 2xl:left-[17.5%]">
+					{sparkles}
+				</span>
+			</div>
+			{!showContent ? (
+				<div className="mt-8 flex flex-col items-center justify-center gap-4">
+					<Switch
+						className="bg-[#A7A8A1] w-[133px] py-7"
+						checked={toggleSwitch}
+						onCheckedChange={handleToggle}
+					/>
+					<span className="text-[#A7A8A1] text-xs">Click to go Online</span>
+				</div>
+			) : (
+				<div className="relative flex flex-col items-center justify-center px-2 w-full flex-1">
+					<div className="relative flex flex-col items-center w-fit mx-auto gap-4 p-7 rounded-xl bg-black z-10">
+						<Image
+							src="/images/user.png"
+							alt="profile picture"
+							width={1000}
+							height={1000}
+							className="rounded-xl w-full h-56 md:h-60 object-cover"
+						/>
+						<div className="text-white flex flex-col items-start w-full">
+							<p className="font-semibold text-3xl max-w-[90%] text-ellipsis whitespace-nowrap overflow-hidden">
+								Nitra Sahgal
+							</p>
+							<div className="flex items-center justify-between w-full mt-2">
+								<span className="text-md h-full">Financial Advisor</span>
+								<span className="bg-green-500 text-xs rounded-xl px-4 py-2">
+									Available
+								</span>
+							</div>
+						</div>
+						<span className="absolute top-1/2 -right-10 text-black">
+							{sparkles}
+						</span>
+					</div>
+					<p className="border-2 border-gray-200 bg-white text-black p-4 -mt-4 lg:-mt-7 pt-10 text-center rounded-3xl rounded-tr-none w-full md:w-3/4 lg:w-1/2 2xl:w-1/3  leading-normal relative">
+						The architecture firm Cadence, led by the vision husband-and-wife
+						duo Angelo and Nancy Marasco, recently underwent a transformative
+						rebranding. With over a decade of industry experience, they joined
+						forces with the creative agency.
+						<span className="absolute top-2 md:top-6 -left-4 md:-left-8 text-black">
+							{sparkles}
+						</span>
+					</p>
+				</div>
+			)}
+		</section>
+	);
+};
+
+export default SwitchToggle;
