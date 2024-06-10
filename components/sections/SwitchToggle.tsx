@@ -56,7 +56,7 @@ const SwitchToggle = () => {
 				<h2 className="relative text-4xl md:text-5xl font-semibold leading-relaxed">
 					Receive calls only when you are online, no more late night disturbance
 				</h2>
-				<span className="absolute -top-7 right-0 md:-top-4 md:right-[3.5%] 2xl:right-[5%]">
+				<span className="absolute -top-10 right-0 md:-top-5 3xl:-top-10 md:right-[3.5%] 2xl:right-[5%]">
 					{sparkles}
 				</span>
 				<span className="absolute -bottom-10 left-7 xl:-bottom-4 md:left-[10%] 2xl:left-[17.5%]">
