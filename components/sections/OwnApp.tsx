@@ -10,23 +10,19 @@ const OwnApp = () => {
 		<section
 			className={`flex flex-col gap-14 items-center justify-center py-20 max-md:px-4 bg-[#232323] text-white`}
 		>
-			<div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-0 items-start md:px-14 lg:px-24">
-				<div className="flex flex-col items-start justify-center gap-7">
+			<div className="grid grid-cols-1 lg:grid-cols-2 items-start md:px-14 lg:px-24">
+				<div className="flex flex-col items-start justify-center h-full gap-7">
 					{/* heading and content */}
-					<h1 className="hidden lg:block md:text-5xl font-semibold !leading-snug">
-						Make your <br /> own app and start earning with pay-per-min chats.
-					</h1>
-					<h1 className="text-4xl lg:hidden font-semibold !leading-snug">
+
+					<h2 className="text-4xl lg:text-5xl font-semibold !leading-snug">
 						Add all your links in one place{" "}
-					</h1>
-					<span className="text-xl leading-loose hidden lg:block">
-						Join 1000+ people who are earning upto 10 Lakhs a month just by
-						talking to their followers. Stop worrying about scheduling calls or
-						collecting payments, flashcall handles everything for you.
-					</span>
+					</h2>
+
 					{/* more content */}
-					<span className="text-xl leading-loose lg:hidden">
-						Connect your profiles in one place for your followers.
+					<span className="text-xl leading-loose">
+						Connect your profiles in one place for your followers. You can add
+						Twitter, Website, Store, Youtube and many more. Anything and
+						everything
 					</span>
 					<Link href="https://forms.gle/bo42SCVG6T4YjJzg8">
 						<Button
@@ -56,7 +52,7 @@ const OwnApp = () => {
 				/>
 
 				<Button
-					className="flex lg:hidden items-center justify-center w-[95%] mx-auto gap-4 uppercase bg-transparent text-white border border-white !py-8"
+					className="flex lg:hidden items-center justify-center w-[95%] mx-auto gap-4 uppercase bg-transparent text-white border border-white !py-8 mt-7 lg:mt-0"
 					style={{
 						boxShadow: theme,
 					}}

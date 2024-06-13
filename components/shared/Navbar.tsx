@@ -14,11 +14,11 @@ const Navbar = () => {
 					className="hidden md:block"
 				>
 					<Image
-						src="/icons/logoDesktop.png"
+						src="/icons/logoFooter.png"
 						alt="logo"
-						width={100}
-						height={100}
-						className="rounded-xl w-full h-10 border border-black  hoverScaleEffect"
+						width={1000}
+						height={1000}
+						className="rounded-xl w-full h-10 hoverScaleEffect p-2 border border-black"
 						style={{
 							boxShadow: theme,
 						}}

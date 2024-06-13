@@ -17,23 +17,23 @@ const CheckoutBanner = () => {
 					/>
 
 					{/* heading and content */}
-					<h1 className="text-3xl md:text-5xl font-semibold !leading-snug text-center md:text-start">
-						Instant checkout, withdraw the money with Instant Check Out{" "}
-					</h1>
+					<h2 className="text-4xl md:text-5xl font-semibold !leading-snug text-center md:text-start">
+						Withdraw your earnings instantly to your bank account
+					</h2>
 				</div>
 				{/* banner */}
 				<Image
 					src="/images/Checkout.png"
 					alt="logo"
-					width={1000}
-					height={1000}
+					width={2000}
+					height={2000}
 					className="hidden lg:block rounded-xl w-full h-full object-contain"
 				/>
 				<Image
 					src="/images/checkoutMobile.png"
 					alt="logo"
-					width={1000}
-					height={1000}
+					width={2000}
+					height={2000}
 					className="lg:hidden rounded-xl w-full h-full object-contain"
 				/>
 			</div>

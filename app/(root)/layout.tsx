@@ -20,7 +20,7 @@ const ClientLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
 	if (loading) return <Loader />;
 
 	return (
-		<div className="relative md:bg-hero bg-contain overflow-x-hidden no-scrollbar">
+		<div className="relative md:bg-hero bg-contain no-scrollbar">
 			<Navbar />
 			<section className="flex min-h-screen flex-1 overflow-x-hidden no-scrollbar">
 				<div className="w-full h-full">{children}</div>

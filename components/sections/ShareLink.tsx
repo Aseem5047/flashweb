@@ -20,10 +20,10 @@ const ShareLink = () => {
 
 				<div className="flex flex-col items-start justify-center gap-14 md:gap-10 md:px-4">
 					{/* heading and content */}
-					<h1 className="text-4xl md:text-5xl text-center lg:text-start font-semibold !leading-snug text-[#502274]">
+					<h2 className="text-4xl md:text-5xl text-center lg:text-start font-semibold !leading-snug text-[#502274]">
 						Share your Flashcall link from your Instagram, YouTube, twitter and
 						other channels{" "}
-					</h1>
+					</h2>
 
 					<Image
 						src="/images/group.png"
