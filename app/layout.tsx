@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Metadata } from "next";
-import Script from "next/script"; // Import the Script component from next/script
+import Script from "next/script";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 
 export const metadata: Metadata = {
@@ -18,8 +18,8 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<head>
-				{/* <Script
+			{/* <head>
+				<Script
 					strategy="afterInteractive"
 					async
 					src="https://www.googletagmanager.com/gtag/js?id=G-1GY673B37C"
@@ -33,10 +33,9 @@ export default function RootLayout({
 						'cookie_domain': 'flashcall.me'
 					});
 					`}
-				</Script> */}
-			</head>
+				</Script>
+			</head> */}
 			<body className="no-scrollbar overflow-x-clip">
-				{" "}
 				<GoogleAnalytics
 					gaMeasurementId="G-1GY673B37C"
 					strategy="afterInteractive"
