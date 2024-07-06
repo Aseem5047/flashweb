@@ -35,13 +35,11 @@ export default function RootLayout({
 					`}
 				</Script>
 			</head> */}
-			<body className="no-scrollbar overflow-x-clip">
-				<GoogleAnalytics
-					gaMeasurementId="G-1GY673B37C"
-					strategy="afterInteractive"
-				/>
-				{children}
-			</body>
+			<GoogleAnalytics
+				gaMeasurementId="G-1GY673B37C"
+				strategy="afterInteractive"
+			/>
+			<body className="no-scrollbar overflow-x-clip">{children}</body>
 		</html>
 	);
 }
