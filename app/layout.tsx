@@ -1,7 +1,6 @@
 import "./globals.css";
 import { Metadata } from "next";
 import Script from "next/script";
-import { GoogleAnalytics } from "nextjs-google-analytics";
 
 export const metadata: Metadata = {
 	title: "Flashcall",
@@ -18,27 +17,21 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			{/* <head>
+			<head>
 				<Script
+					src={`https://www.googletagmanager.com/gtag/js?id=G-1GY673B37C`}
 					strategy="afterInteractive"
-					async
-					src="https://www.googletagmanager.com/gtag/js?id=G-1GY673B37C"
-				></Script>
+				/>
 				<Script id="google-analytics" strategy="afterInteractive">
 					{`
 						window.dataLayer = window.dataLayer || [];
 						function gtag(){dataLayer.push(arguments);}
 						gtag('js', new Date());
-						gtag('config', 'G-1GY673B37C', {
-						'cookie_domain': 'flashcall.me'
-					});
+
+						gtag('config', 'G-1GY673B37C');
 					`}
 				</Script>
-			</head> */}
-			<GoogleAnalytics
-				gaMeasurementId="G-1GY673B37C"
-				strategy="afterInteractive"
-			/>
+			</head>
 			<body className="no-scrollbar overflow-x-clip">{children}</body>
 		</html>
 	);
