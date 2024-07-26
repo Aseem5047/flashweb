@@ -39,7 +39,11 @@ const Navbar = () => {
 				</Link>
 				{/* navLinks */}
 				<div className="flex items-center justify-center gap-4 px-2 md:px-4 md:py-2">
-					<Link href="https://forms.gle/bo42SCVG6T4YjJzg8">
+					<Link
+						href="https://app.flashcall.me/sign-up"
+						target="_blank"
+						rel="noopener"
+					>
 						<Button
 							className="uppercase bg-primary text-white hoverScaleDownEffect text-xs border border-black !px-7"
 							style={{
@@ -49,7 +53,11 @@ const Navbar = () => {
 							Sign Up
 						</Button>
 					</Link>
-					<Link href="https://forms.gle/bo42SCVG6T4YjJzg8">
+					<Link
+						href="https://app.flashcall.me/sign-in"
+						target="_blank"
+						rel="noopener"
+					>
 						<Button
 							className="uppercase bg-white hover:bg-white hoverScaleDownEffect text-xs border border-black !px-7"
 							style={{
