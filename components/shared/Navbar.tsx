@@ -40,7 +40,7 @@ const Navbar = () => {
 				{/* navLinks */}
 				<div className="flex items-center justify-center gap-4 px-2 md:px-4 md:py-2">
 					<Link
-						href="https://app.flashcall.me/sign-up?userType=creator"
+						href="https://app.flashcall.me/sign-up?usertype=creator"
 						target="_blank"
 						rel="noopener"
 					>
@@ -54,7 +54,7 @@ const Navbar = () => {
 						</Button>
 					</Link>
 					<Link
-						href="https://app.flashcall.me/sign-in?userType=creator"
+						href="https://app.flashcall.me/sign-in?usertype=creator"
 						target="_blank"
 						rel="noopener"
 					>
