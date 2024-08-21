@@ -9,10 +9,7 @@ const Navbar = () => {
 		<nav className="sticky top-0 bg-white md:bg-transparent blurEffect w-full md:px-14 lg:px-24 z-40 py-2">
 			<section className="flex items-center justify-between px-3 xs:px-5 md:px-10 py-2 md:bg-primary rounded-full border border-white">
 				{/* logo */}
-				<Link
-					href="https://forms.gle/bo42SCVG6T4YjJzg8"
-					className="hidden md:block"
-				>
+				<Link href="/" className="hidden md:block">
 					<Image
 						src="/icons/logoFooter.png"
 						alt="logo"
@@ -25,7 +22,7 @@ const Navbar = () => {
 					/>
 				</Link>
 
-				<Link href="https://forms.gle/bo42SCVG6T4YjJzg8" className="md:hidden">
+				<Link href="/" className="md:hidden">
 					<Image
 						src="/icons/logoMobile.png"
 						alt="logo"
