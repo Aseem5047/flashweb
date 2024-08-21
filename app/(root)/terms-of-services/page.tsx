@@ -105,7 +105,7 @@ const TermsOfServices = () => {
 			>
 				<h2 className="text-lg font-medium ">A. {terms.A.title}</h2>
 				<p>
-					{terms.A.para1} <strong>(the "Registration")</strong>.
+					{terms.A.para1} <strong>(the &apos;Registration&apos;)</strong>.
 				</p>
 				<p>
 					{terms.A.para2}{" "}
@@ -264,7 +264,7 @@ const TermsOfServices = () => {
 				<p>
 					<strong>{terms.I.flashcallContent.title}:</strong>{" "}
 					{terms.I.flashcallContent.para1}{" "}
-					<strong>("Flashcall Content").</strong>{" "}
+					<strong>(&apos;Flashcall Content&apos;).</strong>{" "}
 					{terms.I.flashcallContent.para2}
 				</p>
 				<p>{terms.I.flashcallContent.para2}</p>
@@ -296,7 +296,7 @@ const TermsOfServices = () => {
 				<h2 className="text-lg font-medium ">K. {terms.K.title}</h2>
 
 				<p className="whitespace-pre-line">
-					{terms.K.para1} <strong>("Feedback")</strong> {", "}
+					{terms.K.para1} <strong>(&apos;Feedback&apos;)</strong> {", "}
 					{terms.K.para2}
 				</p>
 			</section>
@@ -411,15 +411,15 @@ const TermsOfServices = () => {
 					<strong>{terms.P.services.pricing.title}</strong>
 					{": "}
 					{terms.P.services.pricing.para1} (referred to as the{" "}
-					<strong>"consultant Fee"</strong>) at their sole discretion and
-					Flashcall is not responsible for the same.
+					<strong>&apos;consultant Fee&apos;</strong>) at their sole discretion
+					and Flashcall is not responsible for the same.
 				</p>
 
 				<p className="whitespace-pre-line">
 					<strong>{terms.P.services.charges.title}</strong>
 					{": "}
 					{terms.P.services.charges.para1} (referred to as the{" "}
-					<strong>"Platform Service Charge"</strong>{" "}
+					<strong>&apos;Platform Service Charge&apos;</strong>{" "}
 					{terms.P.services.charges.para2})
 				</p>
 
