@@ -15,18 +15,18 @@ export const socials = {
 export const externalLinks = [
 	{
 		label: "Privacy Policy",
-		content:
-			"Flashcall Privacy Policy ... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem cumque suscipit doloribus atque necessitatibus, quod reiciendis, enim nisi similique nulla nesciunt molestias quaerat deserunt consequuntur quidem aut ut soluta praesentium mollitia eveniet facilis. Dolor suscipit provident aut dolorem culpa recusandae fugiat inventore quaerat quia atque, esse, reiciendis enim repellendus quis.",
+
+		route: "/privacy-policy",
 	},
 	{
-		label: "Terms & Conditions",
-		content:
-			"Flashcall Terms & Conditions ... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem cumque suscipit doloribus atque necessitatibus, quod reiciendis, enim nisi similique nulla nesciunt molestias quaerat deserunt consequuntur quidem aut ut soluta praesentium mollitia eveniet facilis. Dolor suscipit provident aut dolorem culpa recusandae fugiat inventore quaerat quia atque, esse, reiciendis enim repellendus quis.",
+		label: "Platform Guidelines",
+
+		route: "/platform-guidelines",
 	},
 	{
-		label: "Refund Policy",
-		content:
-			"Flashcall Refund Policy ... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem cumque suscipit doloribus atque necessitatibus, quod reiciendis, enim nisi similique nulla nesciunt molestias quaerat deserunt consequuntur quidem aut ut soluta praesentium mollitia eveniet facilis. Dolor suscipit provident aut dolorem culpa recusandae fugiat inventore quaerat quia atque, esse, reiciendis enim repellendus quis.",
+		label: "Terms of Services",
+
+		route: "/terms-of-services",
 	},
 ];
 

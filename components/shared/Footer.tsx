@@ -67,20 +67,11 @@ const Footer = () => {
 				{/* External Links */}
 				<ul className="flex gap-4 items-center justify-center">
 					{externalLinks.map((item) => (
-						<li>
-							<Dialog>
-								<DialogTrigger className="text-sm text-white underline underline-offset-2 hover:scale-95 transition-all duration-300">
-									{item.label}
-								</DialogTrigger>
-								<DialogContent>
-									<DialogHeader>
-										<DialogTitle className="text-2xl text-[#50a65c]">
-											{item.label}
-										</DialogTitle>
-										<DialogDescription>{item.content}</DialogDescription>
-									</DialogHeader>
-								</DialogContent>
-							</Dialog>
+						<li
+							key={item.label}
+							className="text-white underline underline-offset-2 text-sm hover:scale-95 transition-all duration-300 ease-in-out"
+						>
+							<Link href={item.route}>{item.label}</Link>
 						</li>
 					))}
 				</ul>
