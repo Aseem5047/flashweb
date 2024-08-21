@@ -16,18 +16,19 @@ const TermsOfServices = () => {
 			<section className="w-full">
 				<span>
 					This document sets out the terms and conditions for use of domains,
-					flashcall.me (the "Site") and any features, subdomains, content,
-					functionality, services, media, applications, Discussion Forums, or
-					solutions offered on or through the Site (collectively referred to as
-					the "Platform"). These terms and conditions apply to individuals who
-					provide services on the Platform (referred to as "consultants") and
-					end users on the Platform (referred to as "Clients") collectively
-					("You", "Your", or "User(s)"). Unless otherwise specifically stated,
-					the terms "You", "Your", or "User" shall refer to you, the user of the
-					Platform or any legal entity for whom you are an authorized employee
-					or agent on behalf of when you are using or accessing the Platform and
-					includes all consultants and Clients. These terms and conditions
-					including the
+					flashcall.me (the &quot;Site&quot;) and any features, subdomains,
+					content, functionality, services, media, applications, Discussion
+					Forums, or solutions offered on or through the Site (collectively
+					referred to as the &quot;Platform&quot;). These terms and conditions
+					apply to individuals who provide services on the Platform (referred to
+					as &quot;consultants&quot;) and end users on the Platform (referred to
+					as &quot;Clients&quot;) collectively (&quot;You&quot;,
+					&quot;Your&quot;, or &quot;User(s)&quot;). Unless otherwise
+					specifically stated, the terms &quot;You&quot;, &quot;Your&quot;, or
+					&quot;User&quot; shall refer to you, the user of the Platform or any
+					legal entity for whom you are an authorized employee or agent on
+					behalf of when you are using or accessing the Platform and includes
+					all consultants and Clients. These terms and conditions including the
 				</span>
 				<Link
 					href="/privacy-policy"
@@ -44,27 +45,28 @@ const TermsOfServices = () => {
 				</Link>
 				<span>
 					and Data Processing Agreement (collectively referred to as the
-					"Agreement"), define the relationship and responsibilities between You
-					and Flashcall (as defined herein) in using the Platform. Your access
-					to the Platform is subject to Your acceptance and agreement of these
-					terms and conditions. Hence, please take Your time to read this
-					Agreement. When we speak of &apos;Flashcall&apos; , &apos;we&apos;,
-					&apos;us&apos;, and &apos;our&apos;, we mean Flashcall - a company
-					incorporated in India. Please read the Agreement and all other rules
-					and policies made available or published on the Platform as they shall
-					govern Your use of the Platform and the services offered therein. From
-					time-to-time, versions of the above-mentioned policies and terms are
-					made available on the Platform for Your reference and to understand
-					how we handle Your personal information. By using or visiting the
-					Platform and services provided to You on, from, or through the
-					Platform, or by clicking the button during the registration process to
-					create an account on the Platform, You are expressly agreeing to the
-					terms of the Agreement and any other terms that are updated from time
-					to time. If You do not agree to any of these terms or do not wish to
-					be bound by the same, please do not use the Platform in any manner. By
-					entering into this Agreement, You represent and warrant that You have
-					full power and authority to enter into this Agreement and doing so
-					will not violate any other agreement which You are a party.
+					&quot;Agreement&quot;), define the relationship and responsibilities
+					between You and Flashcall (as defined herein) in using the Platform.
+					Your access to the Platform is subject to Your acceptance and
+					agreement of these terms and conditions. Hence, please take Your time
+					to read this Agreement. When we speak of &apos;Flashcall&apos; ,
+					&apos;we&apos;, &apos;us&apos;, and &apos;our&apos;, we mean Flashcall
+					- a company incorporated in India. Please read the Agreement and all
+					other rules and policies made available or published on the Platform
+					as they shall govern Your use of the Platform and the services offered
+					therein. From time-to-time, versions of the above-mentioned policies
+					and terms are made available on the Platform for Your reference and to
+					understand how we handle Your personal information. By using or
+					visiting the Platform and services provided to You on, from, or
+					through the Platform, or by clicking the button during the
+					registration process to create an account on the Platform, You are
+					expressly agreeing to the terms of the Agreement and any other terms
+					that are updated from time to time. If You do not agree to any of
+					these terms or do not wish to be bound by the same, please do not use
+					the Platform in any manner. By entering into this Agreement, You
+					represent and warrant that You have full power and authority to enter
+					into this Agreement and doing so will not violate any other agreement
+					which You are a party.
 				</span>
 			</section>
 			{/* About Platform */}
@@ -74,8 +76,8 @@ const TermsOfServices = () => {
 					{aboutPlatform.para1} (<strong>Flashcall Features</strong>)
 				</p>
 				<p>
-					{aboutPlatform.para2} <strong>"Flashcall Features"</strong> or{" "}
-					<strong>"Services</strong> under this Agreement.
+					{aboutPlatform.para2} <strong>&quot;Flashcall Features&quot;</strong>{" "}
+					or <strong>&quot;Services&quot;</strong> under this Agreement.
 				</p>
 				<p>{aboutPlatform.para3} </p>
 				<p className="whitespace-pre-line">{aboutPlatform.para4} </p>
