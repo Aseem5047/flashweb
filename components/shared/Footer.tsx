@@ -58,10 +58,15 @@ const Footer = () => {
 			</div>
 
 			{/* other info */}
-			<div className="flex w-full bg-black text-white py-2">
-				<p className="text-[14px] font-[400] text-center w-full">
-					2024 FLASHCALL | All rights reserved
+			<div className="flex flex-col items-center justify-center w-full bg-black text-white py-2">
+				<p className="text-[14px] font-[400] text-center w-full capitalize">
+					BHHI technologies private limited | All rights reserved
 				</p>
+				{/* address */}
+				<span className="text-white text-xs">
+					19th Main Rd, Vanganahalli, 1st Sector, HSR Layout, Bengaluru,
+					Karnataka 560102
+				</span>
 			</div>
 		</div>
 	);

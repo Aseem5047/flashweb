@@ -3,11 +3,34 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-	title: "Flashcall",
-	description: "Some Description about the organization",
+	title: "FlashCall",
+	description: "Application Connecting People",
 	icons: {
-		icon: "/icons/logoMobile.png",
+		icon: "/icons/logoDarkCircle.png",
 	},
+
+	openGraph: {
+		type: "article",
+		url: "https://flashcall.vercel.app",
+		title: "FlashCall",
+		description: "Application Connecting People",
+		images: "/icons/logoDarkCircle.png",
+		siteName: "Flashcall.me",
+		locale: "en_US",
+	},
+
+	twitter: {
+		card: "summary_large_image",
+		site: "https://flashcall.vercel.app",
+		title: "FlashCall",
+		description: "Application Connecting People",
+		images: "/icons/logoDarkCircle.png",
+		creator: "@johndoe",
+	},
+	metadataBase:
+		process.env.NODE_ENV === "production"
+			? new URL("https://flashcall.vercel.app")
+			: new URL("http://localhost:3000"),
 };
 
 export default function RootLayout({
