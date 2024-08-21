@@ -10,6 +10,28 @@ export const socials = {
 	],
 };
 
+// EXTERNAL LINKS
+
+export const externalLinks = [
+	{
+		label: "Privacy Policy",
+		content:
+			"Flashcall Privacy Policy ... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem cumque suscipit doloribus atque necessitatibus, quod reiciendis, enim nisi similique nulla nesciunt molestias quaerat deserunt consequuntur quidem aut ut soluta praesentium mollitia eveniet facilis. Dolor suscipit provident aut dolorem culpa recusandae fugiat inventore quaerat quia atque, esse, reiciendis enim repellendus quis.",
+	},
+	{
+		label: "Terms & Conditions",
+		content:
+			"Flashcall Terms & Conditions ... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem cumque suscipit doloribus atque necessitatibus, quod reiciendis, enim nisi similique nulla nesciunt molestias quaerat deserunt consequuntur quidem aut ut soluta praesentium mollitia eveniet facilis. Dolor suscipit provident aut dolorem culpa recusandae fugiat inventore quaerat quia atque, esse, reiciendis enim repellendus quis.",
+	},
+	{
+		label: "Refund Policy",
+		content:
+			"Flashcall Refund Policy ... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem cumque suscipit doloribus atque necessitatibus, quod reiciendis, enim nisi similique nulla nesciunt molestias quaerat deserunt consequuntur quidem aut ut soluta praesentium mollitia eveniet facilis. Dolor suscipit provident aut dolorem culpa recusandae fugiat inventore quaerat quia atque, esse, reiciendis enim repellendus quis.",
+	},
+];
+
+// QUERIES
+
 export const queries = [
 	{
 		label: "Why do I need Flashcall?",

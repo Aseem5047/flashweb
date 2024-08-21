@@ -1,8 +1,16 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { socials } from "@/constants";
+import { externalLinks, socials } from "@/constants";
 import { Button } from "../ui/button";
+import {
+	Dialog,
+	DialogContent,
+	DialogDescription,
+	DialogHeader,
+	DialogTitle,
+	DialogTrigger,
+} from "@/components/ui/dialog";
 
 const Footer = () => {
 	const theme = `5px 5px 5px 0px #232323`;
@@ -55,6 +63,27 @@ const Footer = () => {
 						</li>
 					))}
 				</ul>
+
+				{/* External Links */}
+				<ul className="flex gap-4 items-center justify-center">
+					{externalLinks.map((item) => (
+						<li>
+							<Dialog>
+								<DialogTrigger className="text-sm text-white underline underline-offset-2 hover:scale-95 transition-all duration-300">
+									{item.label}
+								</DialogTrigger>
+								<DialogContent>
+									<DialogHeader>
+										<DialogTitle className="text-2xl text-[#50a65c]">
+											{item.label}
+										</DialogTitle>
+										<DialogDescription>{item.content}</DialogDescription>
+									</DialogHeader>
+								</DialogContent>
+							</Dialog>
+						</li>
+					))}
+				</ul>
 			</div>
 
 			{/* other info */}
@@ -65,7 +94,7 @@ const Footer = () => {
 				{/* address */}
 				<span className="text-white text-xs">
 					19th Main Rd, Vanganahalli, 1st Sector, HSR Layout, Bengaluru,
-					Karnataka 560102
+					Karnataka 560102
 				</span>
 			</div>
 		</div>
