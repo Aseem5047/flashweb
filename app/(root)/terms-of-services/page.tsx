@@ -10,6 +10,7 @@ const TermsOfServices = () => {
 			{/* page title */}
 			<h1 className="text-3xl font-medium mt-4">Terms of Services</h1>
 			{/* subheading */}
+			<h2 className="text-lg">BHHI Technologies Pvt. Ltd.</h2>
 			<h2 className="text-lg mb-7">Last Updated: 21st August 2024</h2>
 
 			{/* first para */}
