@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-	title: "FlashCall",
+	title: "FlashCall.me",
 	description: "Application Connecting People",
 	icons: {
 		icon: "/icons/logoDarkCircle.png",
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 	openGraph: {
 		type: "article",
-		url: "https://flashcall.vercel.app",
+		url: "https://flashcall.me",
 		title: "FlashCall",
 		description: "Application Connecting People",
 		images: "/icons/logoDarkCircle.png",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 	twitter: {
 		card: "summary_large_image",
-		site: "https://flashcall.vercel.app",
+		site: "https://flashcall.me",
 		title: "FlashCall",
 		description: "Application Connecting People",
 		images: "/icons/logoDarkCircle.png",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 	},
 	metadataBase:
 		process.env.NODE_ENV === "production"
-			? new URL("https://flashcall.vercel.app")
+			? new URL("https://flashcall.me")
 			: new URL("http://localhost:3000"),
 };
 

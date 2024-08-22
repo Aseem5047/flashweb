@@ -3,14 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { externalLinks, socials } from "@/constants";
 import { Button } from "../ui/button";
-import {
-	Dialog,
-	DialogContent,
-	DialogDescription,
-	DialogHeader,
-	DialogTitle,
-	DialogTrigger,
-} from "@/components/ui/dialog";
 
 const Footer = () => {
 	const theme = `5px 5px 5px 0px #232323`;
@@ -87,6 +79,15 @@ const Footer = () => {
 					19th Main Rd, Vanganahalli, 1st Sector, HSR Layout, Bengaluru,
 					Karnataka 560102
 				</span>
+				<p className="text-white text-sm mt-2">
+					Contact Us:{" "}
+					<a
+						href="mailto:support@Flashcall.me"
+						className="text-[#50a65c] hoverScaleDownEffect"
+					>
+						support@Flashcall.me
+					</a>
+				</p>
 			</div>
 		</div>
 	);

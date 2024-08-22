@@ -28,6 +28,11 @@ export const externalLinks = [
 
 		route: "/terms-of-services",
 	},
+	{
+		label: "Cancellation and Refunds",
+
+		route: "/cancellation-refunds",
+	},
 ];
 
 // QUERIES
