@@ -38,7 +38,7 @@ const Navbar = () => {
 				<div className="flex items-center justify-center gap-4 px-2 md:px-4 md:py-2">
 					<Link
 						// href="https://app.flashcall.me/authenticate?usertype=creator"
-						href="https://app.flashcall.me/expert/aseem11/66ab32f4321d76e89d77464b/aseem@creator"
+						href="https://app.flashcall.me/aseem1144/aseem@creator"
 						target="_blank"
 						rel="noopener"
 					>
@@ -53,7 +53,7 @@ const Navbar = () => {
 					</Link>
 					<Link
 						// href="https://app.flashcall.me/authenticate?usertype=creator"
-						href="https://app.flashcall.me/expert/aseem11/66ab32f4321d76e89d77464b/aseem@creator"
+						href="https://app.flashcall.me/aseem1144/aseem@creator"
 
 						target="_blank"
 						rel="noopener"
