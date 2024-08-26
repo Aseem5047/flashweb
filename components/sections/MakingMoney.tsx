@@ -6,12 +6,12 @@ const MakingMoney = () => {
 	return (
 		<section className="w-full h-fit py-10 pb-20 bg-white grid grid-cols-1 gap-5 items-center justify-center md:px-14 lg:px-24 max-md:px-4">
 			{/* heading */}
-			<h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold !leading-relaxed text-center">
+			<h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold !leading-relaxed lg:text-center">
 				We make money, <span className="text-primary">only When you do</span>
 			</h2>
 
 			{/* more content */}
-			<span className="text-xl leading-loose text-center text-gray-400">
+			<span className="text-xl leading-loose lg:text-center text-gray-400">
 				Start for absolutely free and make use of almost everything we offer
 			</span>
 			{/* content description */}
