@@ -69,3 +69,17 @@ export const queries = [
 			"Flashcall is designed for professionals, consultants, influencers, and anyone who provides services or advice online. Whether you are a financial advisor, a fitness coach, a therapist, or a tutor, Flashcall can streamline your consultation process, making it easier for you to connect with your followers and clients in real-time. Its user-friendly interface and robust features make it suitable for a wide range of professionals seeking to offer instant, secure consultations.",
 	},
 ];
+
+// MAKE MONEY
+
+export const makeMoneyPointers = {
+	title: "20% Per Sale",
+	description: "Setup in less than 5 minutes",
+	buttonText: "Get Started Now",
+	points: [
+		"Set your own pricing, no restriction on what you can charge.",
+		"No separate subscription for Zoom, or Payment gateway charges.",
+		"Withdraw your earnings instantly to your bank account.",
+		"Add unlimited links of your social profile",
+	],
+};

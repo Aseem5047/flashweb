@@ -2,6 +2,7 @@ import About from "@/components/sections/About";
 import CheckoutBanner from "@/components/sections/CheckoutBanner";
 import Hero from "@/components/sections/Hero";
 import Info from "@/components/sections/Info";
+import MakingMoney from "@/components/sections/MakingMoney";
 import OwnApp from "@/components/sections/OwnApp";
 import ShareLink from "@/components/sections/ShareLink";
 import SwitchToggle from "@/components/sections/SwitchToggle";
@@ -20,6 +21,8 @@ const HomePage = () => {
 			<CheckoutBanner />
 			{/* Share Link Section */}
 			<ShareLink />
+			{/* Making Money */}
+			<MakingMoney />
 			{/* Own App Section */}
 			<OwnApp />
 			{/* Accordion Section */}
