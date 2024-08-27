@@ -95,11 +95,11 @@ const SwitchToggle = () => {
 								</span>
 							</div>
 						</div>
-						<span className="absolute top-1/2 -right-10 text-black">
+						<span className="absolute top-1/2 -right-9 text-black">
 							{sparkles}
 						</span>
 					</div>
-					<p className="border-2 border-gray-200 bg-white text-black p-4 -mt-4 lg:-mt-7 pt-10 text-center rounded-3xl rounded-tr-none w-full md:w-3/4 lg:w-1/2 2xl:w-1/3  leading-normal relative">
+					<p className="border-2 border-gray-200 bg-white text-black p-4 -mt-4 lg:-mt-7 pt-10 text-center text- rounded-3xl rounded-tr-none w-full md:w-3/4 lg:w-1/2 2xl:w-1/3  leading-normal relative">
 						I have 10+ years of experience and a graduate in astrology from
 						Ranchi University. I help to give you clarity and insight regarding
 						your life and also to empower you with the spiritual knowledge of
@@ -107,7 +107,7 @@ const SwitchToggle = () => {
 						you can also contact him regarding Marriage Consultation, Career and
 						Business, Love and Relationship, Wealth and Property, Career issues
 						and much more.
-						<span className="absolute top-2 md:top-6 -left-4 md:-left-8 text-black">
+						<span className="absolute top-2.5 md:top-6 -left-6 md:-left-8 text-black">
 							{sparkles}
 						</span>
 					</p>

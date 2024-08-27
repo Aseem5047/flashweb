@@ -15,7 +15,7 @@ const Navbar = () => {
 						alt="logo"
 						width={1000}
 						height={1000}
-						className="rounded-xl w-full h-10 hoverScaleEffect p-2 border border-black"
+						className="rounded-[4px] w-full h-10 hoverScaleEffect p-2 border border-black"
 						style={{
 							boxShadow: theme,
 						}}
@@ -28,7 +28,7 @@ const Navbar = () => {
 						alt="logo"
 						width={1000}
 						height={1000}
-						className="rounded-xl w-12 h-12 border border-black hoverScaleEffect"
+						className="rounded-[4px] w-12 h-12 border border-black hoverScaleEffect"
 						style={{
 							boxShadow: theme,
 						}}
@@ -43,7 +43,7 @@ const Navbar = () => {
 						rel="noopener"
 					>
 						<Button
-							className="uppercase bg-primary text-white hoverScaleDownEffect text-xs border border-black !px-7"
+							className="uppercase bg-primary text-white rounded-[4px] hoverScaleDownEffect text-xs border border-black !px-7"
 							style={{
 								boxShadow: theme,
 							}}
@@ -54,12 +54,11 @@ const Navbar = () => {
 					<Link
 						// href="https://app.flashcall.me/authenticate?usertype=creator"
 						href="https://app.flashcall.me/aseem1144/aseem@creator"
-
 						target="_blank"
 						rel="noopener"
 					>
 						<Button
-							className="uppercase bg-white hover:bg-white hoverScaleDownEffect text-xs border border-black !px-7"
+							className="uppercase bg-white hover:bg-white rounded-[4px] hoverScaleDownEffect text-xs border border-black !px-7"
 							style={{
 								boxShadow: theme,
 							}}

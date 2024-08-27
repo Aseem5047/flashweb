@@ -4,33 +4,38 @@ import { Button } from "../ui/button";
 const MakingMoney = () => {
 	const theme = `5px 5px 0px 0px #50a65c`;
 	return (
-		<section className="w-full h-fit py-10 pb-20 bg-white grid grid-cols-1 gap-5 items-center justify-center md:px-14 lg:px-24 max-md:px-4">
+		<section className="w-full h-fit py-10 pb-14 lg:pb-20 bg-white grid grid-cols-1 gap-2 lg:gap-5 items-center justify-center lg:px-14 lg:px-24 max-lg:px-2">
 			{/* heading */}
-			<h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold !leading-relaxed lg:text-center">
-				We make money, <span className="text-primary">only When you do</span>
+			<h2 className="text-4xl lg:text-5xl font-medium !leading-normal text-center">
+				We make money, <span className="text-primary">only when you do</span>
 			</h2>
 
 			{/* more content */}
-			<span className="text-xl leading-loose lg:text-center text-gray-400">
+			<span className="text-base lg:text-xl leading-loose text-center text-gray-400">
 				Start for absolutely free and make use of almost everything we offer
 			</span>
 			{/* content description */}
-			<section className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] items-center mx-auto mt-5 lg:mt-10 gap-10">
+			<section className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] items-center mx-auto mt-5 lg:mt-10 lg:gap-10">
 				{/* left side */}
-				<div className="bg-primary/15 size-full py-10 lg:scale-125 w-full rounded-[28px] text-center flex flex-col items-center justify-center">
+				<div className="bg-primary/15 size-full py-5 lg:scale-125 w-full rounded-b-none lg:rounded-b-[28px] rounded-[28px] text-center flex flex-col items-center justify-center">
 					{/* heading */}
-					<h2 className="text-primary text-3xl font-medium !leading-relaxed text-center">
+					<h2 className="text-primary text-4xl font-medium !leading-relaxed text-center">
 						{makeMoneyPointers.title}
 					</h2>
 					{/* sub-heading */}
 					<span className="font-medium">{makeMoneyPointers.description}</span>
 					{/* get started button */}
-					<Button className="text-white mt-14">
+					<Button className="text-white mt-14 w-4/5">
 						{makeMoneyPointers.buttonText}
 					</Button>
 				</div>
 				{/* right side */}
-				<ul className="relative w-full h-full flex flex-col item-center justify-center gap-5 border-2 border-l-0 border-primary  rounded-3xl rounded-tl-none rounded-bl-none py-7 pr-7">
+				<ul
+					className="relative w-full h-full flex flex-col item-center justify-center gap-5 border border-t-0 lg:border-t lg:border-l-0 border-primary rounded-t-none rounded-3xl  lg:rounded-tl-none lg:rounded-bl-none py-7 pr-7"
+					style={{
+						boxShadow: `0px 10px 0px 0px rgb(80 166 92 / 0.50)`,
+					}}
+				>
 					{makeMoneyPointers.points.map((point, index) => (
 						<li className="flex gap-2 pl-5" key={index}>
 							<span>
@@ -49,16 +54,16 @@ const MakingMoney = () => {
 									/>
 								</svg>
 							</span>
-							<span className="text-lg">{point}</span>
+							<span className="text-base lg:text-lg">{point}</span>
 						</li>
 					))}
 
-					<div
-						className="h-2.5 absolute bottom-0 w-[95%] rounded-br-3xl -z-0 overflow-hidden"
+					{/* <div
+						className="h-2.5 absolute bottom-0 mx-auto w-[95%] rounded-bl-3xl md:rounded-bl-none rounded-br-3xl -z-0 overflow-hidden"
 						style={{
 							boxShadow: `0px 10px 0px 0px rgb(80 166 92 / 0.50)`,
 						}}
-					/>
+					/> */}
 				</ul>
 			</section>
 		</section>
