@@ -57,7 +57,7 @@ const Footer = () => {
 				</ul>
 
 				{/* External Links */}
-				<ul className="flex gap-4 items-center justify-center">
+				<ul className="flex gap-4 items-center justify-center px-4 flex-wrap overflow-hidden">
 					{externalLinks.map((item) => (
 						<li
 							key={item.label}
@@ -75,7 +75,7 @@ const Footer = () => {
 					BHHI technologies private limited | All rights reserved
 				</p>
 				{/* address */}
-				<span className="text-white text-xs">
+				<span className="text-white text-xs text-center">
 					19th Main Rd, Vanganahalli, 1st Sector, HSR Layout, Bengaluru,
 					Karnataka 560102
 				</span>
