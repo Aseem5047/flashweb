@@ -63,7 +63,7 @@ const PlatformGuidelines = () => {
 					{contentRestrictions.sections["18Plus"].title}
 				</h2>
 				<p>{contentRestrictions.sections["18Plus"].content}</p>
-				<ul className="flex flex-col items-start justify-center gap-4">
+				<ul className="flex flex-col items-start justify-center gap-4 px-2">
 					{contentRestrictions.sections["18Plus"].categories.map(
 						(category, index) => (
 							<li key={index} className="flex flex-col items-start gap-2">
@@ -81,7 +81,7 @@ const PlatformGuidelines = () => {
 
 				<p>{contentRestrictions.sections.whoCanUserFlashcall.description}</p>
 
-				<ul className="flex flex-col items-start justify-center gap-4">
+				<ul className="flex flex-col items-start justify-center gap-4 px-2">
 					{contentRestrictions.sections.whoCanUserFlashcall.categories.map(
 						(category, index) => (
 							<li key={index} className="flex flex-col items-start gap-2">

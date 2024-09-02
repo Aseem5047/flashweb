@@ -6,7 +6,7 @@ const CancellationRefunds = () => {
 		<section className="w-full h-fit py-7 pb-24 bg-white flex flex-col gap-4 items-center justify-start md:px-14 lg:px-24 px-4">
 			{/* page title */}
 			<h1 className="text-3xl font-medium mt-4 mb-7">{conditions.title}</h1>
-			<ul className="flex flex-col items-start justify-center gap-4">
+			<ul className="flex flex-col items-start justify-center gap-4 px-2">
 				{conditions.terms1.map((term, index) => (
 					<li key={index} className="list-disc">
 						{term}
@@ -23,7 +23,7 @@ const CancellationRefunds = () => {
 				))}
 			</ul>
 
-			<ul className="flex flex-col items-start justify-center gap-4">
+			<ul className="flex flex-col items-start justify-center gap-4 px-2">
 				{conditions.terms3.map((term, index) => (
 					<li key={index} className="list-disc">
 						{term}
