@@ -33,6 +33,11 @@ export const externalLinks = [
 
 		route: "/cancellation-refunds",
 	},
+	{
+		label: "About Us",
+
+		route: "/about-us",
+	},
 ];
 
 // QUERIES
