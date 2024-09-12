@@ -31,7 +31,7 @@ const Footer = () => {
 							alt="logo"
 							width={100}
 							height={100}
-							className="rounded-xl w-auto h-auto"
+							className="rounded-xl size-6"
 						/>
 						<p className="text-sm font-semibold">Get Your Link</p>
 					</Button>
